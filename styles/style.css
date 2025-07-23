@@ -9,4 +9,15 @@
   .inter-font {
     font-family: "Inter", sans-serif;
   }
+   .button-styles{
+    background-color: rgba(233, 90, 8, 1.00);
+    padding: 1.25rem 5rem;
+    color: #FFFF;
+    font-weight:600;
+  } 
+}
+@layer components{
+    :root{
+        --color-primary:rgba(233, 90, 8, 1.00);
+    }
 }
