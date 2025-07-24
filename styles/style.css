@@ -16,6 +16,10 @@
     font-weight:600;
     text-transform: uppercase;
   } 
+
+  .footer-list-styles{
+    padding:6px 0;
+  }
 }
 @layer components{
     :root{
