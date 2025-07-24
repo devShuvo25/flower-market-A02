@@ -4,15 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flower Market</title>
+    <script src="https://kit.fontawesome.com/256c63fa14.js" crossorigin="anonymous"></script>
      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="styles/style.css">
 </head>
-<body>
+<body class="inter-font lg:max-w-6xl lg:mx-auto">
     <header>
         <!-- header sectiona starts from here -->
+         <nav class=" h-15 mt-5 flex items-center justify-between  mx-5">
+            <div class="nab-bar-logo h-full">
+
+                <img class="h-full w-full" src="assets/logo.png" alt="">
+            </div>
+            <!-- nav-for-only desktop -->
+             <ul class="hidden lg:flex gap-10 ">
+                <li><a class="opacity-50 hover:opacity-100 transition 0.5s ease-in-out" href="">Home</a></li>
+                <li><a class="opacity-50 hover:opacity-100 transition  0.5s ease-in-out" href="">Shope</a></li>
+                <li><a class="opacity-50 hover:opacity-100 transition 0.5s ease-in-out"href="">About us</a></li>
+                <li><a href=""><i class="fa-solid fa-cart-shopping "></i>Cart ($56)</a></li>
+             </ul>
+
+            
+            <div class="nav-bar-right text-2xl md:hidden">
+                <p><i class="fa-solid fa-cart-shopping "></i> Cart ($56)</p>
+            </div>
+         </nav>
+         <div class="hero my-4 mb-8 lg:my-10 mx-0 md:flex gap-12 flex-row-reverse">
+            <div class="hero-image w-full">
+                <img src="assets/hero-flower.png" alt="">
+            </div>
+            <div class="hero-content mx-5 my-6 md:flex flex-col justify-end">
+                <h1 class="noto-serif-font uppercase me-20 font-bold text-[1.5rem] lg:text-[65px] lg:leading-18">Alwyas <span class="text-[var(--color-primary)]">fresh flowers</span></h1>
+                <p class="text-[14px] text-black my-2 opacity-50">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+            </div>
+         </div>
     </header>
-    <main>
+    <main class="mx-5">
         <!-- main sections started from here -->
+         <div class="plant text-center ">
+            <h1 class="noto-serif-font text-[1.5rem] my-3 font-bold"><span class="text-[var(--color-primary)]">Our</span>Plants</h1>
+            <p class="opacity-50">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+         </div>
+         
     </main>
     <footer>
         <!-- footer section starts from here -->
